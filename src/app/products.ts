@@ -9,13 +9,13 @@ export const productsDataObject = [
   {
     id: 1,
     name: 'IPhone XL',
-    price: 799,
+    price: 899,
     description: 'A large phone with one of the best screens',
   },
   {
     id: 2,
     name: 'IPhone Mini',
-    price: 699,
+    price: 799,
     description: 'A great phone with one of the best cameras',
   },
   {
