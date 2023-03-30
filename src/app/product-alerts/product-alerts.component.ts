@@ -7,6 +7,6 @@ import { IProduct } from '../products';
   styleUrls: ['./product-alerts.component.css'],
 })
 export class ProductAlertsComponent {
-  @Input() productItem!: IProduct;
+  @Input() productAlert!: IProduct;
   @Output() notify = new EventEmitter();
 }
