@@ -1,1 +1,6 @@
-<p>cart works!</p>
+<h1>Cart</h1>
+
+<div class="cart-item" *ngFor="let i of items">
+  {{ i.name }}
+  {{ i.price | currency }}
+</div>
