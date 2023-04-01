@@ -20,6 +20,10 @@ import { CartComponent } from './cart/cart.component';
         path: 'productsDetails/:productId',
         component: ProductDetailsComponent,
       },
+      {
+        path: 'cart',
+        component: CartComponent,
+      },
     ]),
   ],
   declarations: [
