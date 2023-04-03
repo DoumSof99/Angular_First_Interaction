@@ -8,3 +8,7 @@
   {{ i.name }}
   {{ i.price | currency }}
 </div>
+
+<form [formGroup]="checkoutForm">
+  <button class="button" type="submit">Purchase</button>
+</form>
